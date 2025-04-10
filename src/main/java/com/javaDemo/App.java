@@ -8,6 +8,6 @@ public class App {
         String str="{\"name\":\"Mary\"}";
         JSONObject jsonObject= new JSONObject(str);
 
-        System.out.println("My Fist Project.My name is : "+jsonObject.get("name"));
+        System.out.println("My First Project.My name is : "+jsonObject.get("name"));
     }
 }
